@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.categories {
+    margin: 20px;
+}
+
+.categories h2 {
+    font-size: 24px;
+}
+
+.categories ul {
+    list-style-type: none;
+}
+
+.categories li {
+    margin: 10px 0;
+}
+
+.contact {
+    margin: 20px;
+}
+
+.contact p {
+    font-size: 14px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #007bff;
+}

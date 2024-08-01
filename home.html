@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Your Website</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body style=background-image:url(cover_image3.avif) ;>
+    <header >
+        <h1>Welcome to ShopperStock</h1>
+        <h3>Take your business to the next level</h3>
+    </header>
+    <div class="form-container">
+        <h2>Register Your Website</h2>
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <label for="ownerName">Owner's Name:</label>
+                <input type="text" id="ownerName" name="ownerName" required>
+            </div>
+            <div class="form-group">
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="companyDetails">Company Details:</label>
+                <textarea id="companyDetails" name="companyDetails" rows="4" required></textarea>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

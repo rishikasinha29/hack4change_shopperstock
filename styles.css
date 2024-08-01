@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, rgba(125, 127, 131, 0.642), rgba(46, 23, 100, 0.769) );
+    /*background: scroll;*/
+    background-size: cover;
+    /*background-color: #2a034b;*/
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+header {
+    padding: 20px;
+    background-color: #062121;
+    color: white;
+    margin-top: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.member {
+    margin: 20px;
+    padding: 10px;
+    background-color: #120909;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.contact{
+    margin-bottom: 10px;
+    bottom: 10px;
+    padding: 50px;
+}
+
+input{
+    outline: none;
+    border-color: cornflowerblue;
+    box-shadow: 0 0 8px rgba(100, 149, 237, 0.2);
+}
